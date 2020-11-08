@@ -1,9 +1,9 @@
 count = 10
 new_year = 0 
 
-while count <= 0 do
+while count >= 0 do
   puts count
-  count = count - 1
-  break if count = new_year do
-    puts "Happy New Year!"
+  count -= 1
+  
 end
+puts "Happy New Year!"
